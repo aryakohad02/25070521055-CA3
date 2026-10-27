@@ -1,0 +1,13 @@
+{
+  "name": "collabbridge-root",
+  "version": "1.0.0",
+  "description": "CollabBridge - Full-Stack Influencer Marketing Platform",
+  "scripts": {
+    "dev": "(cd collabbridge/server && node --watch server.js) & (cd collabbridge/client && npm run dev)",
+    "dev:server": "cd collabbridge/server && node --watch server.js",
+    "dev:client": "cd collabbridge/client && npm run dev",
+    "seed": "cd collabbridge/server && node utils/seed.js",
+    "test:verify": "cd collabbridge/server && node utils/verifyAll.js",
+    "build:client": "cd collabbridge/client && npm run build"
+  }
+}
